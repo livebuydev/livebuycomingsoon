@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* globals.css or index.css */
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'Poppins', sans-serif;
+}
+
+ .emailBodyWidth{
+  width: 100%;
+ }
+
+ .paddingRight{
+  padding-right: 1rem;
+  position: relative;
+  right: 1rem;
+ }
+
+ .newWidth{
+  width: 8rem;
+  @media screen and (max-width: 990px) {
+    width: 7rem;
+    padding: 1.2rem;
+  }
+ }
+
+ .fontSizeMedia{
+  @media screen and (max-width: 990px) {
+    font-size: 9px;
+  }
+ }
+
+ .noteCss{
+  @media screen and (max-width: 990px) {
+    font-size: 13px;
+    width: 8rem;
+  }
+ }
+
+ .paddingTop{
+  margin-top: 0rem;
+  padding-bottom: 1.5rem;
+ }
+
+ .notifyClr{
+  color: #ff6c3e;
+  @media screen and (max-width: 990px) {
+    font-size: 11px;
+  }
+ }
+
+ .mobileHrs{
+  @media screen and (max-width: 990px) {
+    padding-bottom: 0;
+    padding-left: 1rem;
+    position: relative;
+    top: 4px;
+  }
+ }
+
+ .mobileTxt{
+  @media screen and (max-width: 990px) {
+    font-size: 2.875rem;
+  }
+ }
+
+
+.button-wrapper:hover .button-content {
+  transform: translate(9px, 9px);
+}
+
+.button-wrapper:active .button-content {
+  transform: translate(4px, 6px);
+}
