@@ -89,7 +89,7 @@ const LivebuyCountdown = () => {
             href="https://livebuy.in"
             className="block overflow-hidden whitespace-nowrap"
           >
-            <p className="text-[12px] sm:text-sm font-poppins font-thin fontSizeMedia">
+            <p className="kitchen">
               Our kitchen is bustling right now; we'll notify you when the dish is ready! 🎉
             </p>
           </a>
@@ -195,7 +195,7 @@ const LivebuyCountdown = () => {
           alt="Background"
           layout="responsive"
           objectFit="cover"
-          className="opacity-50"
+          className="opacity-100"
         />
       </div>
 
@@ -206,7 +206,7 @@ const LivebuyCountdown = () => {
           alt="Background"
           layout="responsive"
           objectFit="cover"
-          className="opacity-50"
+          className="opacity-100"
         />
       </div>
           </div>

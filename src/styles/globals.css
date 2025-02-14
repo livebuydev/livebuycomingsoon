@@ -88,3 +88,7 @@ body {
 .button-wrapper:active .button-content {
   transform: translate(4px, 6px);
 }
+
+.kitchen {
+  font-size: 0.975rem;
+}
