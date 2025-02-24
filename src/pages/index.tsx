@@ -188,6 +188,7 @@ const LivebuyCountdown = () => {
 
           {/* Background Image */}
           <div className="w-full px-4 md:px-16 lg:px-32 mt-8">
+            <a href="https://www.linkedin.com/in/anandadvik/">
             {/* Desktop Image (Visible on screens >= 480px) */}
       <div className="hidden sm:block">
         <Image
@@ -209,6 +210,7 @@ const LivebuyCountdown = () => {
           className="opacity-100"
         />
       </div>
+      </a>
           </div>
           {/* Footer */}
           <footer className="bg-black font-poppins text-center py-4 text-gray-500 text-xs mt-8">
