@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import logo from '../../public/1.png';
-import main from '../../public/2.png';
+import main from '../../public/Quote.svg';
 import mobile from '../../public/Frame.svg';
 import BouncyButton from './button';
 import Head from 'next/head';
 
 const LivebuyCountdown = () => {
-  const LAUNCH_DATE = new Date('2025-04-01T00:00:00Z');
+  const LAUNCH_DATE = new Date('2025-05-01T00:00:00Z');
 
   const [timeRemaining, setTimeRemaining] = useState({
     hours: 0,
